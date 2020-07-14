@@ -13,5 +13,5 @@ class Anagram
       @word.sort == contender.sort
     end #do
   end #match
-  
+
 end #Anagram
