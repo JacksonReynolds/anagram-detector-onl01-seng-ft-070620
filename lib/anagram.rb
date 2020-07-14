@@ -12,5 +12,6 @@ class Anagram
     possible_anagrams.find do |contender|
       @word.sort == contender.sort
     end #do
-
+  end #match
+  
 end #Anagram
